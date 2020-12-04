@@ -8,7 +8,7 @@ n_msg = "100000"
 interface = "docker0"
 # Type
 # "1" = Flood; "2"=Teardrop; "3"=Black nurse
-type = "2"
+type = "1"
 # IPs used
 # "1" = From ips.txt; "2" = Random IPs
 orig_type = "2"
