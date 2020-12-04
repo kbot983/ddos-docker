@@ -1,0 +1,36 @@
+version: '3.6'
+services:
+    ubuntu-server:
+        build: php-apache-mysqli
+        ports: 
+            - 8888:80
+        volumes: 
+            - ./html:/var/www/html/
+        # image: netdata/netdata
+        # ports:
+        #     - 19999:19999
+        # restart: unless-stopped
+        # cap_add:
+        #     - SYS_PTRACE
+        # security_opt:
+        #     - apparmor:unconfined
+    client1:
+        build: py
+    client2:
+        build: py
+    client3:
+        build: py
+    client4:
+        build: py
+    client5:
+        build: py
+    client6:
+        build: py
+    client7:
+        build: py
+    client8:
+        build: py
+    client9:
+        build: py
+    client10:
+        build: py
