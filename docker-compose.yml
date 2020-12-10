@@ -6,14 +6,6 @@ services:
             - 8888:80
         volumes: 
             - ./html:/var/www/html/
-        # image: netdata/netdata
-        # ports:
-        #     - 19999:19999
-        # restart: unless-stopped
-        # cap_add:
-        #     - SYS_PTRACE
-        # security_opt:
-        #     - apparmor:unconfined
     client1:
         build: py
     client2:
